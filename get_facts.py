@@ -10,8 +10,8 @@ R3 = '172.16.1.146'
 R4 = '172.16.1.145'
 R5 = '172.16.1.144'
 
-username = 'shesh'
-password = 'shesh'
+username = 'cisco'
+password = 'cisco'
 
 for device in (R2,R3,R4,R5):
     R_connect = driver(device,username,password)
